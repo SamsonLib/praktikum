@@ -78,6 +78,14 @@ echo(f"Created sign at {x} {y} {z} over {block_type}")
 - mcpi für jave (siehe unten)
 ## Eigene Mods / Plugins
 - Java / Kotlin
+
+## WorldEdit CraftScripts
+- [Craftscripts](https://worldedit.enginehub.org/en/latest/usage/other/craftscripts/)
+```js
+importPackage(Packages.com.sk89q.worldedit.world.block);
+var sess = context.remember();
+sess.setBlock(player.getBlockOn().toVector().toBlockPoint(), BlockTypes.WHITE_WOOL.getDefaultState());
+```
 ## Computer Craft (Mod)
 - Fügt Computer Blöcker hinzu, die man mit lua steuern kann.
 - Lua
