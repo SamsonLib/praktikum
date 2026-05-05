@@ -1,8 +1,6 @@
 #!/bin/bash
 set -e
 
-XIBO_HOST=""
-XIBO_KEY=""
 ENV_DIR="$HOME/env"
 TTY="tty2"
 
